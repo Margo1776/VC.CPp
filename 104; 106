@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+for (int i=0; i<10;i++) 
+cout<<"Заволока Маргарита\n";
+}
+
+
+
+
+
+
+#include <cstdlib> 
+#include <iostream> 
+#define N 10 
+using namespace std; 
+int main(int argc, char *argv[]) 
+{ 
+  for( int i = 0; i < N;i++)
+{  
+if(i % 2 != 0) 
+cout << "\t" << i << "\t" << i * i << endl; 
+} 
+ system("PAUSE"); 
+return 0; 
+}
